@@ -4,7 +4,7 @@ import time
 
 class BME280Reader:
     def __init__(self):
-        self.address = 0x77
+        self.address = 0x76
         self.bus = smbus2.SMBus(1)
         self.calibration_params = bme280.load_calibration_params(self.bus,self.address)
 
