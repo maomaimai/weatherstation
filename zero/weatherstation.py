@@ -2,7 +2,7 @@ import time
 import smbus2
 import bme280
 
-address = 0x77
+address = 0x76
 
 bus = smbus2.SMBus(1)
 
